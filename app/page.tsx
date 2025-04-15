@@ -50,57 +50,66 @@ export default function Home() {
                             </p>
                         </section>
                         <section className="w-full">
-                            <div
-                                className="mb-10 p-4 rounded-md transition-all duration-200 hover:bg-accent/5 hover:shadow-sm">
+                            <a
+                                href="https://www.ey.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="block mb-10 p-4 rounded-md transition-all duration-200 hover:bg-accent/5 hover:shadow-sm hover:cursor-pointer"
+                            >
                                 <div className="flex flex-col md:flex-row gap-4 md:gap-8">
                                     <div className="md:w-1/5">
-                                        <p className="text-muted-foreground font-medium">2021 - Present</p>
+                                        <p className="text-muted-foreground font-medium">2022 - Present</p>
                                     </div>
 
                                     <div className="md:w-4/5">
                                         <h3 className="text-lg font-medium mb-1">Software Engineer</h3>
                                         <h4 className="text-base text-muted-foreground mb-3">EY</h4>
-                                        <p className="text-muted-foreground mb-4">
-                                            Led development of client-facing web applications, focusing on performance
-                                            optimization and accessibility.
-                                            Collaborated with cross-functional teams to deliver solutions that meet
-                                            business requirements.
-                                        </p>
-
+                                        <ul className="text-muted-foreground mb-4 list-disc pl-5 space-y-2">
+                                            <li>Designed and implemented microservices-based architectures, enabling scalable and resilient web applications that supported up to 12 millions users</li>
+                                            <li>Refactored and optimised codebases, improving application performance and streamlining code for greater maintainability and scalability</li>
+                                            <li>Developed intuitive and accessible front-end interfaces and engineered robust back-end services, delivering seamless user experiences for enterprise clients</li>
+                                            <li>Integrated DevOps best practices, including automated CI/CD pipelines and container orchestration, accelerating deployment cycles and reducing release times</li>
+                                            <li>Collaborated cross-functionally with product managers, designers, and QA teams to deliver high-quality software solutions on schedule and within budget</li>
+                                        </ul>
                                         <div className="flex flex-wrap gap-2">
-                                            <Badge variant="outline">React</Badge>
-                                            <Badge variant="outline">TypeScript</Badge>
-                                            <Badge variant="outline">Next.js</Badge>
-                                            <Badge variant="outline">Tailwind CSS</Badge>
+                                            <Badge variant="outline">JavaScript</Badge>
+                                            <Badge variant="outline">Scala</Badge>
+                                            <Badge variant="outline">Java</Badge>
+                                            <Badge variant="outline">C#</Badge>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
 
-                            <div
-                                className="mb-10 p-4 rounded-md transition-all duration-200 hover:bg-accent/5 hover:shadow-sm">
+                            <a
+                                href="https://www.sigmalabs.co.uk"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="block mb-10 p-4 rounded-md transition-all duration-200 hover:bg-accent/5 hover:shadow-sm hover:cursor-pointer"
+                            >
                                 <div className="flex flex-col md:flex-row gap-4 md:gap-8">
                                     <div className="md:w-1/5">
-                                        <p className="text-muted-foreground font-medium">2018 - 2021</p>
+                                        <p className="text-muted-foreground font-medium">2021 - 2022</p>
                                     </div>
 
                                     <div className="md:w-4/5">
-                                        <h3 className="text-lg font-medium mb-1">Frontend Developer</h3>
-                                        <h4 className="text-base text-muted-foreground mb-3">Tech Innovations Inc.</h4>
-                                        <p className="text-muted-foreground mb-4">
-                                            Developed responsive web applications with a focus on user experience.
-                                            Implemented design systems to ensure consistency across platforms.
-                                        </p>
-
+                                        <h3 className="text-lg font-medium mb-1">Software Engineer</h3>
+                                        <h4 className="text-base text-muted-foreground mb-3">Sigma Labs</h4>
+                                        <ul className="text-muted-foreground mb-4 list-disc pl-5 space-y-2">
+                                            <li>Completed an intensive, full-time bootcamp focused on modern web development, covering both front-end and back-end technologies</li>
+                                            <li>Built and deployed multiple full-stack projects, applying agile methodologies and collaborating with peers in team-based environments</li>
+                                            <li>Developed responsive user interfaces and RESTful APIs, gaining hands-on experience with version control (Git/GitHub) and cloud deployment</li>
+                                            <li>Practiced test-driven development (TDD) and wrote unit/integration tests to ensure code quality and reliability</li>
+                                            <li>Participated in code reviews and pair programming, strengthening problem-solving skills and learning industry best practices</li>
+                                        </ul>
                                         <div className="flex flex-wrap gap-2">
                                             <Badge variant="outline">JavaScript</Badge>
-                                            <Badge variant="outline">Vue.js</Badge>
-                                            <Badge variant="outline">SCSS</Badge>
-                                            <Badge variant="outline">Webpack</Badge>
+                                            <Badge variant="outline">Python</Badge>
+                                            <Badge variant="outline">Scala</Badge>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </section>
                     </div>
                 </div>
