@@ -33,7 +33,7 @@ export default function Home() {
                     </div>
                 </section>
 
-                <div className="md:w-1/2 w-full mt-8 md:mt-0 md:h-[60vh] md:overflow-y-auto">
+                <div className="md:w-1/2 w-full mt-8 md:mt-0 md:h-[calc(100vh-8rem)] lg:h-[calc(100vh-10rem)] md:overflow-y-auto">
                     <div className="md:pr-8 lg:pr-16">
                         <section className="mb-12">
                             <p className="text-muted-foreground text-base md:text-lg text-left mb-4">
